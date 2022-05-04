@@ -14,6 +14,8 @@ body {
 .header {
     background-color: rgb(250, 245, 245);
     height: 60px;
+    display: block;
+    opacity: 0.7;
 }
 
 .header_nav {
@@ -35,8 +37,40 @@ body {
     display: flex;
 }
 
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 .about {
-    height: 900px;
-   
+    height: 969px;
+    background-image: url(../assets/back.jpg);
+}
+
+.about_title {
+    font-weight: 300;
+    padding-top: 300px;
+    margin: 0;
+}
+
+.about_subtitle {
+    margin: 0;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.about_skill_title {
+    font-size: 1.5em;
+    padding-top: 50px;
+}
+
+.about_skill {
+    display: flex;
+    padding: 0;
+    padding-right: 15px;
+    font-size: 1.2em;
 }
 
